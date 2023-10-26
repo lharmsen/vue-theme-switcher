@@ -1,0 +1,44 @@
+{
+  "name": "vue-theme-switcher",
+  "version": "1.0.0",
+  "description": "A customizable theme switcher component for Vue 3 applications",
+  "main": "dist/vue-theme-switcher.umd.js",
+  "module": "dist/vue-theme-switcher.esm.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vue-theme-switcher"
+  },
+  "keywords": [
+    "vue",
+    "theme",
+    "switcher",
+    "component",
+    "vue3"
+  ],
+  "author": "Leo Harmsen harmsen.itservice@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/vue-theme-switcher/issues"
+  },
+  "homepage": "https://github.com/yourusername/vue-theme-switcher#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@vue/compiler-sfc": "^3.3.7",
+    "rollup": "^3.29.4",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.3.7"
+  }
+}
